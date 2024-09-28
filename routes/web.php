@@ -19,3 +19,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', [PageHomeController::class, 'index']);
+Route::get('/about', [PageHomeController::class, 'about']);
